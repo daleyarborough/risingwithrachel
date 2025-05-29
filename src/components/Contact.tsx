@@ -10,7 +10,7 @@ const Contact: React.FC = () => {
             <h2 className="display-5 fw-bold mb-3">Get In Touch</h2>
             <p className="lead">
               Ready to take your running to the next level? Contact me to discuss your goals and how we can work together.
-              <span className="d-block mt-2 fw-medium">For inquiries on pricing, please contact through email or phone.</span>
+              <span className="d-block mt-2 fw-medium">For inquiries on pricing, please contact through email.</span>
             </p>
             <div className="border-bottom border-primary w-25 mx-auto mb-4" style={{borderWidth: '3px'}}></div>
           </Col>
@@ -25,22 +25,11 @@ const Contact: React.FC = () => {
                 <div className="d-flex flex-column gap-4">
                   <div className="d-flex align-items-start">
                     <div className="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
-                      <i className="bi bi-telephone text-primary fs-4"></i>
-                    </div>
-                    <div>
-                      <h4 className="h5 fw-bold mb-1">Phone</h4>
-                      <p className="mb-1 fs-5">(919) 909-0863</p>
-                      <p className="text-muted">Available Mon-Fri, 9am-5pm EST</p>
-                    </div>
-                  </div>
-                  
-                  <div className="d-flex align-items-start">
-                    <div className="bg-primary bg-opacity-10 p-3 rounded-circle me-3">
                       <i className="bi bi-envelope text-primary fs-4"></i>
                     </div>
                     <div>
                       <h4 className="h5 fw-bold mb-1">Email</h4>
-                      <p className="mb-1 fs-5">rachelmlamm@gmail.com</p>
+                      <p className="mb-1 fs-5">rachellamm117@gmail.com</p>
                       <p className="text-muted">Email response within 24 hours</p>
                     </div>
                   </div>
